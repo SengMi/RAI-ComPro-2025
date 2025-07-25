@@ -10,3 +10,31 @@ int main() {
     printf("+----------------+--------+--------+\n");
     return 0;
 }
+#include <stdio.h>
+
+int main() {
+    float programming, drawing, mechanics, math1, average;
+
+    printf("Enter Programming grade: ");
+    scanf("%f", &programming);
+
+    printf("Enter Drawing grade: ");
+    scanf("%f", &drawing);
+
+    printf("Enter Mechanics grade: ");
+    scanf("%f", &mechanics);
+
+    printf("Enter Math1 grade: ");
+    scanf("%f", &math1);
+
+    average = (programming + drawing + mechanics + math1) / 4.0;
+
+    printf("\nGrades:\n");
+    printf("Programming : %.2f\n", programming);
+    printf("Drawing     : %.2f\n", drawing);
+    printf("Mechanics   : %.2f\n", mechanics);
+    printf("Math1       : %.2f\n", math1);
+    printf("Average     : %.2f\n", average);
+
+    return 0;
+}
