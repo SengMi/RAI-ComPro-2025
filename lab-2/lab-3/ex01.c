@@ -4,14 +4,12 @@ int main() {
     int num1, num2, choice;
     int result;
 
-    // Input
     printf("Enter Num1 : ");
     scanf("%d", &num1);
     
     printf("Enter Num2 : ");
     scanf("%d", &num2);
 
-    // Menu
     printf("\nCalculator Menu :\n");
     printf("1. +\n");
     printf("2. -\n");
@@ -21,7 +19,6 @@ int main() {
     printf("Choose menu : ");
     scanf("%d", &choice);
 
-    // Operation
     switch (choice) {
         case 1:
             result = num1 + num2;

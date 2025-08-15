@@ -17,9 +17,9 @@ int main() {
     scanf("%f", &weight);
     printf("Enter your gender: ");
     scanf(" %c", &gender);
-    getchar();
+   
     printf("Enter your Education Qualification: ");
-    fgets(education, sizeof(education), stdin); 
+    scanf("%s",education);
     printf("\nName: %s\n", name);
     printf("Age: %d\n", age);
     printf("Gender: %c\n", gender);
